@@ -1,0 +1,228 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{amssymb, amsmath}
+\DeclareMathOperator{\arcsinh}{arcsinh}
+\DeclareMathOperator{\arccosh}{arccosh}
+\DeclareMathOperator{\arctanh}{arctanh}
+\usepackage[utf8]{inputenc} % this is needed for umlauts
+\usepackage[ngerman]{babel} % this is needed for umlauts
+\usepackage[T1]{fontenc}    % this is needed for correct output of umlauts in pdf
+%layout
+
+\usepackage{pgfplots}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{parskip}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+
+
+\pdfinfo{
+   /Author (Chaniels and Aubi)
+   /Title  (Blocktator Collectibles)
+   /Subject (Analysis I)
+   /Keywords (Blocktators I; Social Narrative)
+}
+
+
+\begin{document}
+
+\title{Blocktator Whitepaper}
+\author{Chainel Aubi}
+\date{16 January, 2022}
+
+\section{What is a Blocktator?}
+    \begin{minipage}[b]{1\linewidth}
+
+        Blocktators are non-fungible collectibles on OpenSea deployed to the
+        Polygon network. The Blocktator characters are memes of real-world
+        people that have outsized weight on the narratives, information flows and
+        policy decisions that shape and change our world. The individuals depected
+        as potatoes can be traded and owned on the OpenSea market place and content
+        will be produced on the @blocktators twitter account.
+    \end{minipage}
+
+
+\section{Useless Math Equation}
+
+    \begin{table}[ht]
+
+        \hspace{0.1cm}
+        \begin{minipage}[b]{1\linewidth}\centering
+        \begin{align*}
+            \lim_{x \to 0} \frac {\sin x}{x}  &= 1 \\
+            \lim_{x \to 0} \frac {e^x - 1}{x} &= 1 \\
+            \lim_{h \to 0} \frac {e^{{x_0} + h} - e^{x_0}}{h} &= e^{x_0} \\
+            \sum_{n = 0}^{\infty} (-1)^n \frac {(-1)^{n + 1}}{n} &= \log 2 \\
+            \cos x    &= \sum_{n = 0}^{\infty} (-1)^n \frac {x^{2n}}{(2n)!}  \\
+            \sin x    &= \sum_{n = 0}^{\infty} (-1)^n \frac {x^{2n + 1}}{(2n + 1)!}
+        \end{align*}
+        \end{minipage}
+
+    \end{table}
+
+
+\section{Les actions ne font que monter}
+    \begin{minipage}[b]{0.5\linewidth}
+        Stonks only go up!
+        \newline
+
+        \begin{filecontents*}{data.dat}
+            Date,    Tesla,   AAPL,     Blocktators
+            2010 Q4 3, 60000, 50000, 1
+            2010 Q4 4, 70000, 57000, 1
+            2010 Q4 5, 60000, 55000, 1
+            2011 Q2 1, 55000, 47000, 1
+            2011 Q2 2, 56000, 45000, 1
+            2011 Q2 3, 58000, 45500, 1
+            2011 Q2 4, 56000, 44500, 1
+            2011 Q2 5, 52000, 44000, 1
+            2011 Q4 1, 39000, 38000, 1
+            2011 Q4 2, 43000, 42000, 1
+            2011 Q4 3, 41000, 40000, 1
+            2011 Q4 4, 41000, 39000, 1
+            2011 Q4 5, 47000, 44000, 1
+            2012 Q2 1, 48000, 45000, 1
+            2012 Q2 2, 47000, 44000, 1
+            2012 Q2 3, 47000, 45000, 500
+            2012 Q2 4, 40000, 38000, 501
+            2012 Q2 5, 39000, 35000, 502
+            2012 Q4 1, 37000, 33000, 503
+            2012 Q4 2, 36000, 30000, 504
+            2012 Q4 3, 38000, 32000, 505
+            2012 Q4 4, 40000, 33000, 506
+            2012 Q4 5, 44000, 34000, 507
+            2013 Q2 1, 48000, 39000, 508
+            2013 Q2 2, 53000, 44000, 509
+            2013 Q2 3, 51000, 41000, 510
+            2013 Q2 4, 53000, 44000, 511
+            2013 Q2 5, 67000, 55000, 512
+            2013 Q4 1, 65000, 52000, 513
+            2013 Q4 2, 69000, 57000, 514
+            2013 Q4 3, 68000, 56000, 515
+            2013 Q4 4, 65000, 51000, 3000
+            2013 Q4 5, 62000, 48000, 3000
+            2014 Q2 1, 60000, 50000, 3000
+            2014 Q2 2, 55000, 44000, 18000
+            2014 Q2 3, 60000, 50000, 18000
+            2014 Q2 4, 58000, 48000, 18000
+            2014 Q2 5, 56000, 47000, 18000
+            2014 Q4 1, 55000, 50000, 18000
+            2014 Q4 2, 65000, 60000, 18000
+            2014 Q4 3, 64000, 58000, 41000
+            2014 Q4 4, 62000, 55000, 41500
+            2014 Q4 5, 60000, 58000, 42000
+            2022 Q2 1, 58000, 56000, 42000
+            2022 Q2 2, 52000, 48000, 42500
+            2022 Q2 3, 59000, 48000, 52500
+            2022 Q2 4, 58000, 45000, 52500
+            2022 Q2 5, 57000, 55000, 52500
+            2022 Q4 1, 56000, 57000, 62500
+            \end{filecontents*}
+
+            \pgfplotsset{compat=newest}
+            \begin{tikzpicture}
+              \begin{axis}[
+                width=15cm,height=8cm,
+                symbolic x coords = { 2010 Q4 3,2010 Q4 4,2010 Q4 5,
+                  2011 Q2 1,2011 Q2 2,2011 Q2 3,2011 Q2 4,2011 Q2 5,
+                  2011 Q4 1,2011 Q4 2,2011 Q4 3,2011 Q4 4,2011 Q4 5,
+                  2012 Q2 1,2012 Q2 2,2012 Q2 3,2012 Q2 4,2012 Q2 5,
+                  2012 Q4 1,2012 Q4 2,2012 Q4 3,2012 Q4 4,2012 Q4 5,
+                  2013 Q2 1,2013 Q2 2,2013 Q2 3,2013 Q2 4,2013 Q2 5,
+                  2013 Q4 1,2013 Q4 2,2013 Q4 3,2013 Q4 4,2013 Q4 5,
+                  2014 Q2 1,2014 Q2 2,2014 Q2 3,2014 Q2 4,2014 Q2 5,
+                  2014 Q4 1,2014 Q4 2,2014 Q4 3,2014 Q4 4,2014 Q4 5,
+                  2022 Q2 1,2022 Q2 2,2022 Q2 3,2022 Q2 4,2022 Q2 5,
+                  2022 Q4 1},
+                xtick = {2010 Q4 3,2011 Q2 1,2011 Q4 1,2012 Q2 1,2012 Q4 1,2013 Q2 1,2013 Q4 1,2014 Q2 1,2014 Q4 1,2022 Q2 1,2022 Q4 1},
+                xticklabels = {2010 Q4,2011 Q2,2011 Q4,2012 Q2,2012 Q4,2013 Q2,2013 Q4,2014 Q2,2014 Q4,2022 Q2,2022 Q4},
+                scaled y ticks=false,
+                ytick={0,10000,20000,30000,40000,50000,60000,70000},
+                ylabel={Valuation (in \$\ Million)},
+                every tick label/.append style={font=\tiny},
+                no marks,
+                grid=major,
+                legend pos=south east,
+                legend cell align=left,
+                legend style={draw=none,fill=none},
+                ]
+                \pgfplotstableread[col sep=comma]{data.dat}\loadedtable
+                \addplot table[x=Date,y=Tesla] {\loadedtable};
+                \addplot table[x=Date,y=AAPL] {\loadedtable};
+                \addplot table[x=Date,y=Blocktators] {\loadedtable};
+                \legend{Tesla,AAPL,Blocktators}
+              \end{axis}
+            \end{tikzpicture}
+            
+
+
+    \end{minipage}
+
+    \section{Collect and Select}
+
+
+\subsection{Should you Ape into a Blocktator?} \label{whatisadecisiontree}
+    A Blocktator with only a very few direct lines of communication to indiviuals 
+    not under their employment shall develop a simple algorithm for sorting critical 
+    outcome posibilities as elements $A, B, C$. He decides to divide the possible 
+    outcome choices into smaller statements. First he wonders if $A$ is smaller then 
+    $B$. In the second step it is interesting if $B$ is smaller then $C$. If $A<B$ 
+    and $B<C$ then $A<B<C$. But if $B$ is not greater then $C$, then a third question 
+    is relevant: Is $A<C$? 
+
+    His head is spinning. Maybe solving this problem graphically is a better idea. 
+    He draws a node for each question and an edge for each answer. All leafs represent 
+    the correct order. Figure \ref{fig:sortingtree} shows the resulting graph:
+
+    \begin{figure}[!h]
+    \begin{tikzpicture}[edge from parent/.style={draw,-latex},
+    level distance=2cm,
+    level 1/.style={sibling distance=10cm},
+    level 2/.style={sibling distance=3cm}]
+    \tikzstyle{every node}=[rectangle,draw]    
+    \node (Root) {$A < B$}
+    child {
+        node {$B < C$}    
+        child { 
+            node {$A < B < C$} 
+            edge from parent node[left,draw=none] {yes}
+        }
+        child { 
+            node {$A < C$} 
+            child {
+                node {$A < C \leq B$}
+                edge from parent node[left,draw=none] {yes}
+            }
+            child {
+                node {$C \leq A < B$}
+                edge from parent node[right,draw=none] {no}
+            }
+            edge from parent node[right,draw=none] {no}
+        }
+        edge from parent node[left,draw=none] {yes $\;$}
+    }
+    child {
+        node {$B < C$}
+        child { 
+            node {$A < C$}     
+            child {
+                node {$B \leq A < C$}
+                edge from parent node[left,draw=none] {yes}
+            }   
+            child {
+                node {$B < C \leq A$}
+                edge from parent node[left,draw=none] {no}
+            }     
+            edge from parent node[left,draw=none] {yes}
+        }
+        child { 
+            node {$C \leq B \leq A$} 
+            edge from parent node[right,draw=none] {no}
+        }
+        edge from parent node[right,draw=none] { $\;$ no}
+    };
+    \end{tikzpicture}
+    \caption{A decision tree for sorting three values.}
+    \label{fig:sortingtree}
+    \end{figure}
+
+\end{document}
