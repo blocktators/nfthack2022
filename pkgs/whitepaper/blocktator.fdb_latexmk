@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1642339740 "/Users/xhad/code/blocktators/nfthack/pkgs/whitepaper/blocktator.tex" "/Users/xhad/code/blocktators/nfthack/pkgs/whitepaper/blocktator.pdf" "blocktator" 1642339742
-  "/Users/xhad/code/blocktators/nfthack/pkgs/whitepaper/blocktator.aux" 1642339742 920 ae9cbb9b15f7cfbd56f01ecc6f0d7f58 ""
-  "/Users/xhad/code/blocktators/nfthack/pkgs/whitepaper/blocktator.tex" 1642339738 8684 cf3fbf3355dd71168abac9bec14be1d8 ""
+["pdflatex"] 1642341650 "/Users/xhad/code/blocktators/nfthack/pkgs/whitepaper/blocktator.tex" "/Users/xhad/code/blocktators/nfthack/pkgs/whitepaper/blocktator.pdf" "blocktator" 1642341652
+  "/Users/xhad/code/blocktators/nfthack/pkgs/whitepaper/blocktator.aux" 1642341652 920 ae9cbb9b15f7cfbd56f01ecc6f0d7f58 ""
+  "/Users/xhad/code/blocktators/nfthack/pkgs/whitepaper/blocktator.tex" 1642341650 8684 1d57988d22adc22c87a45821ce5e581c ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -191,12 +191,12 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1642263076 2724735 c5029d75040e60bf158785fad610efc3 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "blocktator.aux" 1642339742 920 ae9cbb9b15f7cfbd56f01ecc6f0d7f58 "pdflatex"
-  "blocktator.tex" 1642339738 8684 cf3fbf3355dd71168abac9bec14be1d8 ""
+  "blocktator.aux" 1642341652 920 ae9cbb9b15f7cfbd56f01ecc6f0d7f58 "pdflatex"
+  "blocktator.tex" 1642341650 8684 1d57988d22adc22c87a45821ce5e581c ""
   "data.dat" 1642331901 2077 1fea0535398006af74c8724d70a36101 ""
   (generated)
-  "/Users/xhad/code/blocktators/nfthack/pkgs/whitepaper/blocktator.log"
-  "blocktator.pdf"
+  "/Users/xhad/code/blocktators/nfthack/pkgs/whitepaper/blocktator.pdf"
   "blocktator.aux"
   "blocktator.log"
-  "/Users/xhad/code/blocktators/nfthack/pkgs/whitepaper/blocktator.pdf"
+  "blocktator.pdf"
+  "/Users/xhad/code/blocktators/nfthack/pkgs/whitepaper/blocktator.log"
