@@ -9,7 +9,7 @@ Our intention for this project is to learn how to create the NFTs and
 use Polygon and OpenSea. 
 
 ## Art
-Art has been created with Abobe in SVG. The potatoes are meant to mock the 
+Art has been created with Adobe in SVG. The potatoes are meant to mock the 
 significance of how world-changing social-impact narratives agendas become 
 religiously dogmatic.
 
